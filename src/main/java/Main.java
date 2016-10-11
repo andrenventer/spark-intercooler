@@ -12,7 +12,7 @@ public class Main {
 
         exception(Exception.class, (e, req, res) -> e.printStackTrace()); // print all exceptions
         staticFiles.location("/public");
-        port(9999);
+        port(3000);
 
         // Render main UI
         get("/", (req, res) -> renderTodos(req));
