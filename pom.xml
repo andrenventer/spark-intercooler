@@ -69,6 +69,11 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.13</version>
         </dependency>
+        <dependency>
+          <groupId>org.clojure</groupId>
+          <artifactId>clojure</artifactId>
+          <version>1.8.0</version>
+        </dependency>
     </dependencies>
 
 </project>

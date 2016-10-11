@@ -1,6 +1,4 @@
-import model.Status;
-import model.Todo;
-import model.TodoDao;
+import model.*;
 import spark.*;
 import spark.template.velocity.*;
 import java.util.*;
@@ -56,6 +54,14 @@ public class Main {
         // Edit by id
         get("/todos/:id/edit", (req, res) -> renderEditTodo(req));
 
+        // Persistent Test
+        get("/persist", (req, res) -> renderMessage(req));
+
+    }
+
+    private static String renderMessage(Request req) {
+        PersistentTest.demo(); // side effects printing to console
+        return "PersistentTest";
     }
 
     private static String renderEditTodo(Request req) {
@@ -72,8 +78,10 @@ public class Main {
         model.put("allComplete", TodoDao.all().size() == TodoDao.ofStatus(Status.COMPLETE).size());
         model.put("status", Optional.ofNullable(statusStr).orElse(""));
         if ("true".equals(req.queryParams("ic-request"))) {
+            //System.out.println(model);
             return renderTemplate("velocity/todoList.vm", model);
         }
+        //System.out.println(model);
         return renderTemplate("velocity/index.vm", model);
     }
 

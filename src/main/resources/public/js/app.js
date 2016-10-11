@@ -11,5 +11,5 @@ $(document)
     });
 
 Intercooler.ready(function () {
-    $("[autofocus]:last").focus();
+    //$("[autofocus]:last").focus();
 });

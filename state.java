@@ -1,0 +1,207 @@
+{
+  filter=,
+  activeCount=1,
+  anyCompleteTodos=false,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=ACTIVE
+      )
+    ],
+  allComplete=false,
+  status=
+}
+
+{
+  filter=,
+  activeCount=2,
+  anyCompleteTodos=false,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=ACTIVE
+    ),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=ACTIVE
+    )
+  ],
+  allComplete=false,
+  status=
+}
+
+{
+  filter=,
+  activeCount=3,
+  anyCompleteTodos=false,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=ACTIVE
+      ),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=ACTIVE
+      ),
+    Todo(
+      title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=ACTIVE
+      )
+    ],
+  allComplete=false,
+  status=
+}
+
+=========================
+
+{
+  filter=,
+  activeCount=2,
+  anyCompleteTodos=true,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=COMPLETE
+      ),
+    Todo(title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=ACTIVE
+      ),
+    Todo(
+      title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=ACTIVE
+      )
+    ],
+  allComplete=false,
+  status=
+}
+
+{
+  filter=,
+  activeCount=1,
+  anyCompleteTodos=true,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=COMPLETE
+      ),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=COMPLETE
+      ),
+    Todo(
+      title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=ACTIVE
+      )
+    ],
+  allComplete=false,
+  status=
+}
+
+{
+  filter=,
+  activeCount=0,
+  anyCompleteTodos=true,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=COMPLETE
+      ),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=COMPLETE
+      ),
+    Todo(title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=COMPLETE
+      )
+    ],
+  allComplete=true,
+  status=
+}
+
+=========================
+
+{
+  filter=active,
+  activeCount=0,
+  anyCompleteTodos=true,
+  todos=[],
+  allComplete=true,
+  status=active
+}
+
+=========================
+
+{
+  filter=complete,
+  activeCount=0,
+  anyCompleteTodos=true,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=COMPLETE
+      ),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=COMPLETE
+      ),
+    Todo(
+      title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=COMPLETE
+      )
+    ],
+  allComplete=true,
+  status=complete
+}
+
+=========================
+
+{
+  filter=,
+  activeCount=0,
+  anyCompleteTodos=true,
+  todos=[
+    Todo(
+      title=1234,
+      id=e722e0ee-aef9-469c-b25b-dcdc48fd167c,
+      status=COMPLETE),
+    Todo(
+      title=2345,
+      id=5e1ae6b2-0944-40d6-b684-25032fd4ed04,
+      status=COMPLETE),
+    Todo(
+      title=3456,
+      id=c72c5b2f-5f2a-4f0d-8b4e-fcfbde56cb1d,
+      status=COMPLETE)
+  ],
+  allComplete=true,
+  status=
+}
+
+=========================
+
+{
+  filter=,
+  activeCount=0,
+  anyCompleteTodos=false,
+  todos=[],
+  allComplete=true,
+  status=
+}
