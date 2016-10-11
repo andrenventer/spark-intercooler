@@ -6,10 +6,6 @@ import spark.template.velocity.*;
 import java.util.*;
 import static spark.Spark.*;
 
-/**
- * This class contains exactly the same functionality as TodoList,
- * but it's following normal Spark conventions more closely.
- */
 public class Main {
 
     public static void main(String[] args) {
